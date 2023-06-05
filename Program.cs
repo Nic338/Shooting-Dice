@@ -8,7 +8,8 @@ namespace ShootingDice
     {
         static void Main(string[] args)
         {
-            Player player1 = new Player();
+            //using Bob as a test subject for each of the different players
+            SoreLoserUpperHalfPlayer player1 = new SoreLoserUpperHalfPlayer();
             player1.Name = "Bob";
 
             Player player2 = new Player();
